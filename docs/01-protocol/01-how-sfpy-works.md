@@ -5,7 +5,7 @@ id: 01-how-sfpy-works
 
 import Link from '@docusaurus/Link'
 
-SFPY is open source infrastructure for accepting payments through ETH and any ERC-20 token with the added benefit of _earning_ fees rather than _paying_ them. The protocol is implemented and deployed as a series of smart contracts on the Ethereum blockchain. This allows any individual, business or institution to start accepting digital payments immediately and without permission, prioritizing **ownership**, **security** and **censorship resistance**. SFPY is **open-source software** and is licensed under the [GPL](https://en.wikipedia.org/wiki/GNU_General_Public_License).
+SFPY is open source infrastructure for accepting payments through ETH and any ERC-20 token with the added benefit of _earning_ fees rather than _paying_ them. The protocol is implemented and deployed as a series of smart contracts on the Ethereum blockchain. This allows any individual, business or institution to start accepting digital payments immediately and without permission, prioritizing **ownership**, **security** and **censorship resistance**. SFPY is **open-source software** and is licensed under the [MIT](https://en.wikipedia.org/wiki/MIT_License).
 
 Each SFPY smart contract or <Link to="/docs/02-core/02-pools">pool</Link> manages a liqudity pool made up of a single ERC-20 token. Each payment made to a pool will issue corresponding liquidity pool tokens to track pro-rata shares of the total reserve, and can be redeemed for the underlying assets at any time.
 

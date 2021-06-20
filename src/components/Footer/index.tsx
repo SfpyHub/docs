@@ -80,9 +80,6 @@ export function Footer() {
         <StyledLink to="/docs/07-legal/03-terms">
           Terms and Conditions
         </StyledLink>
-        <StyledLink to="/docs/07-legal/02-privacy-policy">
-          Privacy Policy
-        </StyledLink>
       </List>
     </Wrapper>
   )

@@ -12,7 +12,7 @@ The pages that follow contain comprehensive documentation of the SFPY ecosystem.
 You can explore the sidebar to find more specific documentation covering the specific areas:
 - <Link to="/docs/01-protocol/01-how-sfpy-works">Protocol Overview</Link>
 - <Link to="/docs/02-core/01-payments">Core Concepts</Link>
-- <Link to="/docs/05-api/01-authentication">REST API Guide</Link>
+- <Link to="/docs/05-api/01-introduction">REST API Guide</Link>
 - <Link to="/docs/03-smart-contracts/01-quick-start">Smart Contracts</Link>
 
 ## Developer tools

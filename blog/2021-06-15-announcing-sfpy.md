@@ -44,7 +44,7 @@ This is achieved through liquidity pools that aggregate funds across all merchan
 
 The nice side-effect of building on Ethereum is that we at no point control any funds. Said in another way, merchants are in complete control of their hard earned revenue. At any point in time, they can choose to withdraw their outstanding liquidity to their own wallets without any complicated settlement schedules, additional fees and most of all *permission*.
 
-Our aim is to provide merchants with a similar experience of accepting payments that they would be used to in terms of plugins for various e-commerce platforms, <Link to="/docs/05-api/01-authentication">APIs</Link> for custom integrations, [SDKs](https://github.com/sfpyhub/web3-sdk) for simplifying the integration process and an [open source interface](https://github.com/sfpyhub/interface) to manage their payments and refunds from.
+Our aim is to provide merchants with a similar experience of accepting payments that they would be used to in terms of plugins for various e-commerce platforms, <Link to="/docs/05-api/01-introduction">APIs</Link> for custom integrations, [SDKs](https://github.com/sfpyhub/web3-sdk) for simplifying the integration process and an [open source interface](https://github.com/sfpyhub/interface) to manage their payments and refunds from.
 
 ## Apps
 
@@ -76,7 +76,7 @@ We're very interested with working with developers, businesses, and the wider co
 
 - <Link to="/docs/06-references/01-deployment-addresses">Deployment Addresses</Link>
 - [Use the App](https://app.sfpy.co)
-- <Link to="/docs/05-api/01-authentication">API Reference</Link>
+- <Link to="/docs/05-api/01-introduction">API Reference</Link>
 - [Discord](https://discord.gg/PQffzU78Fx)
 
 

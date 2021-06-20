@@ -33,7 +33,7 @@ module.exports = {
     }
   ],
   'api': [
-    '05-api/01-authentication'
+    '05-api/01-introduction'
   ],
   'references': [
     '06-references/01-deployment-addresses',

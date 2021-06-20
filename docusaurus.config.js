@@ -49,7 +49,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/05-api/01-authentication',
+          to: 'docs/05-api/01-introduction',
           activeBasePath: 'docs/05-api',
           label: 'API',
           position: 'left',
@@ -99,7 +99,7 @@ module.exports = {
           items: [
             {
               label: 'API Reference',
-              href: 'docs/05-api/01-authentication',
+              href: 'docs/05-api/01-introduction',
             }
           ],
         },
@@ -108,7 +108,7 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/PQffzU78Fx',
             },
             {
               label: 'Twitter',
@@ -129,6 +129,19 @@ module.exports = {
             },
           ],
         },
+        {
+          title: "Legal",
+          items: [
+            {
+              label: 'Terms & Conditions',
+              href: 'docs/07-legal/03-terms',
+            },
+            {
+              label: 'Disclaimer',
+              href: 'docs/07-legal/01-disclaimer',
+            }
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} SFPY.`,
     },
@@ -141,13 +154,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/sfpyhub/docs/edit/master/docs/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/sfpyhub/docs/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -236,7 +236,7 @@ export function Item({ bg, inverted, icon, name, href, external, label, size }: 
 }
 
 export function ApiItem({ size }: { size?: string }) {
-	return <Item href='/docs/05-api/01-authentication' size={size} icon={(<StyledPackage size={40} />)} name="API" label="Explore our API reference" />
+	return <Item href='/docs/05-api/01-introduction' size={size} icon={(<StyledPackage size={40} />)} name="API" label="Explore our API reference" />
 }
 
 export function DocsItem({ size }: { size?: string }) {
