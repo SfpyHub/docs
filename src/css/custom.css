@@ -1,0 +1,69 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e8a22");
+
+@font-face {
+  font-family: "soehne-halbfett";
+  src: url('/static/fonts/soehne-web-halbfett.eot');
+  src: url('/static/fonts/soehne-web-halbfett.woff') format('woff');
+  src: url('/static/fonts/soehne-web-halbfett.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "soehne-leicht";
+  src: url('/static/fonts/soehne-web-leicht.eot');
+  src: url('/static/fonts/soehne-web-leicht.woff') format('woff');
+  src: url('/static/fonts/soehne-web-leicht.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "futura-bt-medium";
+  src: url('/static/fonts/futura-bt-medium.woff2') format('woff2');
+  src: url('/static/fonts/futura-bt-medium.woff') format('woff');
+}
+
+:root {
+  --ifm-color-primary: #8b3cc4;
+  --ifm-color-primary-dark: #7d36b1;
+  --ifm-color-primary-darker: #7633a7;
+  --ifm-color-primary-darkest: #612a8a;
+  --ifm-color-primary-light: #9750ca;
+  --ifm-color-primary-lighter: #9d59cd;
+  --ifm-color-primary-lightest: #ae77d6;
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: "soehne-leicht";
+  --ifm-font-family-light: "soehne-leicht";
+  --ifm-font-family-heavy: "soehne-halbfett";
+  --ifm-font-family-header: "futura-bt-medium";
+}
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #635BFF;
+  --ifm-color-primary-dark: #0A2540;
+  --ifm-color-primary-darker: #092139;
+  --ifm-color-primary-darkest: #081E34;
+  --ifm-color-primary-light: #6F67FF;
+  --ifm-color-primary-lighter: #7A73FF;
+  --ifm-color-primary-lightest: #857FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'soehne-halbfett', sans-serif;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+

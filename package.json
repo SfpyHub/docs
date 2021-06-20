@@ -1,0 +1,57 @@
+{
+  "name": "sfpy-docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-alpha.72",
+    "@docusaurus/preset-classic": "2.0.0-alpha.72",
+    "@mdx-js/react": "^1.6.21",
+    "@react-three/fiber": "^6.0.19",
+    "@tweenjs/tween.js": "^18",
+    "clsx": "^1.1.1",
+    "framer-motion": "^4.1.13",
+    "polished": "^4.1.2",
+    "pusher.color": "^0.2.4",
+    "react": "^17.0.1",
+    "react-app-polyfill": "^2.0.0",
+    "react-dom": "^17.0.1",
+    "react-feather": "^2.0.9",
+    "react-intersection-observer": "^8.31.1",
+    "react-is": "^17.0.2",
+    "react-typist": "^2.0.5",
+    "rebass": "^4.0.7",
+    "styled-components": "^5.2.3",
+    "three": "^0.128.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "^2.0.0-alpha.75",
+    "@tsconfig/docusaurus": "^1.0.2",
+    "@types/react": "^17.0.4",
+    "@types/react-helmet": "^6.1.1",
+    "@types/react-router-dom": "^5.1.7",
+    "typescript": "^4.2.4"
+  }
+}
