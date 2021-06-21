@@ -40,4 +40,4 @@ The takeaway is that **tokens must be transferred to pools before pay is called*
 ## Developer resources
 
 - To see how to implement payments in a smart contract read [Paying from a smart contract](/docs/03-smart-contracts/02-paying-from-a-smart-contract)
-- To see how to pay from the web interface, read [Making a payment](/docs/04-interface/02-making-a-payment)
+- To see how to pay from the web interface, read [Making a payment](/docs/04-interface/03-making-a-payment)

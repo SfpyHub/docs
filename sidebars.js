@@ -32,6 +32,13 @@ module.exports = {
       ],
     }
   ],
+  'interface': [
+    '04-interface/01-create-account',
+    '04-interface/02-create-request',
+    '04-interface/03-making-a-payment',
+    '04-interface/04-refunding-a-payment',
+    '04-interface/05-withdraw-balance',
+  ],
   'api': [
     '05-api/01-introduction'
   ],

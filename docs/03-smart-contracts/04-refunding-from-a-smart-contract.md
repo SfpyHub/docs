@@ -49,4 +49,4 @@ For example if the original payment from the previous example of USD 5000 needs 
 
 The best way to protect against these attacks is to use an external price feed or "price oracle". The best "oracle" is simply _traders' off-chain observation of the current price_, which can be passed into the payment.
 
-The S2 interface automatically does this for you by pulling the current exchange rate between USD and a variety of ERC-20 tokens and ETH. Hence we recommend that for a seamless experience, most merchants should use our open source interface. You can read more by visiting [Making a refund](/docs/04-interface/03-refunding-a-payment).
+The S2 interface automatically does this for you by pulling the current exchange rate between USD and a variety of ERC-20 tokens and ETH. Hence we recommend that for a seamless experience, most merchants should use our open source interface. You can read more by visiting [Making a refund](/docs/04-interface/04-refunding-a-payment).

@@ -69,4 +69,4 @@ Because the onous to pay the correct number of tokens is on the payer, to ensure
 
 The best way to protect against these attacks is to use an external price feed or "price oracle". The best "oracle" is simply _traders' off-chain observation of the current price_, which can be passed into the payment.
 
-The S2 interface automatically does this for you by pulling the current exchange rate between USD and a variety of ERC-20 tokens and ETH. Hence we recommend that for a seamless experience, most customers should use our open source interface. You can read more by visiting [Making a payment](/docs/04-interface/02-making-a-payment).
+The S2 interface automatically does this for you by pulling the current exchange rate between USD and a variety of ERC-20 tokens and ETH. Hence we recommend that for a seamless experience, most customers should use our open source interface. You can read more by visiting [Making a payment](/docs/04-interface/03-making-a-payment).

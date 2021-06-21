@@ -39,7 +39,7 @@ When executing a refund, merchants must have the equivalent amount of liquidity 
 ## Developer resources
 
 - To see how to implement refunds in a smart contract read [Refunding from a smart contract](/docs/03-smart-contracts/04-refunding-from-a-smart-contract)
-- To see how to manage refunds from the web interface, read [Refunding a payment](/docs/04-interface/03-refunding-a-payment)
+- To see how to manage refunds from the web interface, read [Refunding a payment](/docs/04-interface/04-refunding-a-payment)
 
 
 

@@ -49,6 +49,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'docs/04-interface/01-create-account',
+          activeBasePath: 'docs/04-interface',
+          label: 'Interface',
+          position: 'left',
+        },
+        {
           to: 'docs/05-api/01-introduction',
           activeBasePath: 'docs/05-api',
           label: 'API',
@@ -100,6 +106,15 @@ module.exports = {
             {
               label: 'API Reference',
               to: 'docs/05-api/01-introduction',
+            }
+          ],
+        },
+        {
+          title: "Interface",
+          items: [
+            {
+              label: 'How to use the App',
+              to: 'docs/04-interface/01-create-account',
             }
           ],
         },
