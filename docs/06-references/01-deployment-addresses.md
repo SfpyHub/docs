@@ -11,8 +11,8 @@ The source code is verified with Etherscan on all networks.
 
 These addresses are final and were deployed from these npm package versions:
 
-- `@sfpy/core`: [`1.0.1`](https://github.com/sfpyhub/sfpy-core)
-- `@sfpy/periphery`: [`1.0.1`](https://github.com/sfpyhub/sfpy-periphery)
+- `@sfpy/core`: [`1.0.2`](https://github.com/sfpyhub/sfpy-core)
+- `@sfpy/periphery`: [`1.0.2`](https://github.com/sfpyhub/sfpy-periphery)
 
 | Contract                           | Address                                      | Source Code|
 | ---------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |

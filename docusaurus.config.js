@@ -99,7 +99,7 @@ module.exports = {
           items: [
             {
               label: 'API Reference',
-              href: 'docs/05-api/01-introduction',
+              to: 'docs/05-api/01-introduction',
             }
           ],
         },
@@ -134,11 +134,11 @@ module.exports = {
           items: [
             {
               label: 'Terms & Conditions',
-              href: 'docs/07-legal/03-terms',
+              to: 'docs/07-legal/03-terms',
             },
             {
               label: 'Disclaimer',
-              href: 'docs/07-legal/01-disclaimer',
+              to: 'docs/07-legal/01-disclaimer',
             }
           ],
         },
@@ -154,13 +154,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/sfpyhub/docs/edit/master/docs/',
+            'https://github.com/SfpyHub/docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/sfpyhub/docs/edit/master/blog/',
+            'https://github.com/SfpyHub/docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
