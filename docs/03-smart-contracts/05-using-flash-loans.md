@@ -3,7 +3,7 @@ title: Using Flash Loans
 id: 05-using-flash-loans
 ---
 
-Flash loans are an integral feature of S2. This allows pool contracts to generate revenue for liquidity providers by being a source of unrestrcited capital. This is done by pool contracts sending borrowed tokens to the recipient _optimistically_ without requiring any collateral. This is slightly atypical, as one might expect a pool to ensure it's secure before lending tokens out in case the borrower defaults. But because Ethereum transactions are _atomic_, we can roll back the entire borrow if it turns out that the contract hasn't received enough tokens to make itself whole by the end of the transaction.
+Flash loans are an integral feature of SFPY. This allows pool contracts to generate revenue for liquidity providers by being a source of unrestrcited capital. This is done by pool contracts sending borrowed tokens to the recipient _optimistically_ without requiring any collateral. This is slightly atypical, as one might expect a pool to ensure it's secure before lending tokens out in case the borrower defaults. But because Ethereum transactions are _atomic_, we can roll back the entire borrow if it turns out that the contract hasn't received enough tokens to make itself whole by the end of the transaction.
 
 To see how this all works, let's start by examining the interface of the `borrow` function:
 
