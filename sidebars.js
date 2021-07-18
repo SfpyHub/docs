@@ -40,7 +40,8 @@ module.exports = {
     '04-interface/05-withdraw-balance',
   ],
   'api': [
-    '05-api/01-introduction'
+    '05-api/01-introduction',
+    '05-api/02-webhooks'
   ],
   'references': [
     '06-references/01-deployment-addresses',

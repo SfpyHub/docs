@@ -3,6 +3,8 @@ title: Flash Apps
 id: 05-flash-apps
 ---
 
+import Link from '@docusaurus/Link'
+
 Flash Loans are very easily accessible through a neat interface:
 
 ```solidity
