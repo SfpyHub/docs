@@ -18,6 +18,8 @@ The following topics will be covered but will be broken up into parts for brevit
 
 I hope you find this useful and interesting enough to follow along. Future tutorials will cover how to integrate payments through *smart contracts* to showcase the flexibility of SFPY.
 
+If you want to skip right ahead to a repository I have published you can head on over [here](https://github.com/SfpyHub/webhook-test)
+
 ## Part 1 - Installing the go-sfpy library
 
 Assuming you have a go service that you're working on, you can easily install our native SDK. Installation instructions are available [here](https://github.com/SfpyHub/go-sfpy#installation) but I'll repeat them for convenience.
