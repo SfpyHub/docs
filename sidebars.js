@@ -38,6 +38,7 @@ module.exports = {
     '04-interface/03-making-a-payment',
     '04-interface/04-refunding-a-payment',
     '04-interface/05-withdraw-balance',
+    '04-interface/06-webhooks',
   ],
   'api': [
     '05-api/01-introduction',
