@@ -12,7 +12,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'SfpyHub', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
   customFields: {
     appUrl,
     githubUrl: 'https://github.com/sfpyhub',

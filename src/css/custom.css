@@ -66,4 +66,22 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 var(--ifm-pre-padding);
 }
 
+@media screen and (max-width: 996px) {
+  :root {
+    --ifm-font-size-base: 18px;
+  }
+  
+}
 
+@media screen and (min-width: 997px) {
+  :root {
+    --ifm-font-size-base: 17px;
+  }
+  
+}
+
+article {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
